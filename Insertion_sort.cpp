@@ -23,7 +23,7 @@ int main(){//main function
     for(int i = 0; i < s; i++){//get array element from user
         cin >> A[i];
     }
-    int* B = insertion_sort(A, s);
+    int* B = insertion_sort(A, s);//B is pointer that point to the returning array
     for(int i = 0; i < s; i++){//for loop, by this loop show the sorted array
         cout << B[i] << " ";
     }
